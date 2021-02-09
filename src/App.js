@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import ScrollingColorBackground from 'react-scrolling-color-background'
+import Head from './Components/Head'
+import Projects from './Components/Projects'
+import About from './Components/About'
+import Footer from './Components/Footer'
+import './index.css'
 
-function App() {
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+        <ScrollingColorBackground
+            selector='.js-color-stop[data-background-color]'
+            colorDataAttribute='data-background-color'
+            initialRgb='rgb(154, 140, 152)'
+        />
+        <section id='head'
+        data-background-color='rgb(154, 140, 152)'
+            className='js-color-stop'
+            style={{height: '100vh'}}
+        ><Head />
+        </section>
+        <section
+            data-background-color='rgb(242, 233, 228)'
+            className='js-color-stop'
+            style={{height: '100vh'}}
+        ><Projects />
+        </section>
+        <section
+            data-background-color='rgb(34, 34, 59)'
+            className='js-color-stop'
+            style={{height: '100vh'}}
         >
-          Learn React
-        </a>
-      </header>
+        <About />
+        <Footer />
+        </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
