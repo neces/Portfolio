@@ -1,8 +1,8 @@
 import React from 'react'
-import { ReactComponent as Mail } from '../Image/mail.svg';
-import { ReactComponent as Linkedin } from '../Image/logo-linkedin.svg';
-import { ReactComponent as Cv } from '../Image/cv.svg';
-import Pdf from '../Files/CV.pdf';
+import { ReactComponent as Mail } from '../Assets/mail.svg';
+import { ReactComponent as Linkedin } from '../Assets/logo-linkedin.svg';
+import { ReactComponent as Cv } from '../Assets/cv.svg';
+import Pdf from '../Assets/CV.pdf';
 import Grid from '@material-ui/core/Grid';
 
 const Footer = ({ }) => {
