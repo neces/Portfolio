@@ -6,7 +6,7 @@ import { ReactComponent as Speak } from '../Image/speaking.svg';
 import Pdf from '../Files/CV.pdf';
 import Grid from '@material-ui/core/Grid';
 import { Container } from '@material-ui/core';
-import { HashLink } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Head = ({ }) => {
 
@@ -38,7 +38,7 @@ const Head = ({ }) => {
       <p>Computer Scientist fascinated by the intersection of design, engineering and business. Interested in technology but more excited about the people using it. Creative problem-solver, global citizen and advocate for Women in STEM.</p>
 
       <p>Looking for a summer internship before starting a masters degree in HCI.</p>
-      <h3>View Projects ↓</h3>
+      <Link to="#projects"><h3>View Projects ↓</h3></Link>
       </Container>
     </div>
     </div>
