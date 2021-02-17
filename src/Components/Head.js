@@ -3,6 +3,7 @@ import { ReactComponent as Mail } from '../Assets/mail.svg';
 import { ReactComponent as Linkedin } from '../Assets/logo-linkedin.svg';
 import { ReactComponent as Cv } from '../Assets/cv.svg';
 import { ReactComponent as Speak } from '../Assets/speaking.svg';
+import { ReactComponent as Arrow } from '../Assets/arrow.svg';
 import Pdf from '../Assets/CV.pdf';
 import Grid from '@material-ui/core/Grid';
 import { Container } from '@material-ui/core';
@@ -38,8 +39,11 @@ const Head = ({ }) => {
       <p>Computer Scientist fascinated by the intersection of design, engineering and business. Interested in technology but more excited about the people using it. Creative problem-solver, global citizen and advocate for Women in STEM.</p>
 
       <p>Looking for a summer internship before starting a masters degree in HCI.</p>
-      <Link to="#projects"><h3>View Projects ↓</h3></Link>
       </Container>
+    </div>
+    <div className='more-projects'>
+        <h3>View Projects</h3>
+        <Arrow />
     </div>
     </div>
   )
