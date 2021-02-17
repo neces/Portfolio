@@ -34,7 +34,7 @@ const Head = ({ }) => {
     <div className='greeting'>
       <Container maxWidth="sm">
       <h1>Hi, I'm Neja!</h1>
-      <h2><Speak />⋅ [ne-yah]</h2>
+      <h2><Speak />⋅ [ney-a]</h2>
       <p>Computer Scientist fascinated by the intersection of design, engineering and business. Interested in technology but more excited about the people using it. Creative problem-solver, global citizen and advocate for Women in STEM.</p>
 
       <p>Looking for a summer internship before starting a masters degree in HCI.</p>
