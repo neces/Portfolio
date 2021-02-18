@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.78012893.chunk.css",
+    "main.css": "/Portfolio/static/css/main.1650f93e.chunk.css",
     "main.js": "/Portfolio/static/js/main.0965fcb6.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.0965fcb6.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
@@ -8,7 +8,7 @@
     "static/js/2.0627bb12.chunk.js": "/Portfolio/static/js/2.0627bb12.chunk.js",
     "static/js/2.0627bb12.chunk.js.map": "/Portfolio/static/js/2.0627bb12.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.78012893.chunk.css.map": "/Portfolio/static/css/main.78012893.chunk.css.map",
+    "static/css/main.1650f93e.chunk.css.map": "/Portfolio/static/css/main.1650f93e.chunk.css.map",
     "static/js/2.0627bb12.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0627bb12.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Portfolio/static/media/Brayden-Script-Regular.c19a3b4e.otf",
     "static/media/CV.80daba21.pdf": "/Portfolio/static/media/CV.80daba21.pdf",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.896df889.js",
     "static/js/2.0627bb12.chunk.js",
-    "static/css/main.78012893.chunk.css",
+    "static/css/main.1650f93e.chunk.css",
     "static/js/main.0965fcb6.chunk.js"
   ]
 }
