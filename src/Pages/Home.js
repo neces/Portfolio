@@ -21,7 +21,7 @@ const Home = () => {
         ><Head />
         </section>
         <section id='projects'
-            data-background-color='rgb(242, 233, 228)'
+            data-background-color='rgb(214, 206, 201)'
             className='js-color-stop'
             style={{height: '100vh'}}
         ><Projects />

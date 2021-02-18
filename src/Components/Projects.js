@@ -1,5 +1,6 @@
 import React from 'react'
-import Neja from '../Assets/neja.png';
+import OpenDayDashboard from '../Assets/open-day-dashboard.png';
+import DesignSprintDashboard from '../Assets/design-sprint-dashboard.png';
 import { Container } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import { ReactComponent as Book } from '../Assets/book.svg';
@@ -15,16 +16,23 @@ const Projects = ({ }) => {
         alignItems="flex-start"
       >
         <Grid item xs={12} sm={6}>
-          <div><img src={Neja} width="200" alt="Neja's profile picture" /></div>
+          <div><img src={DesignSprintDashboard} width="550" alt="Final year project Design Sprint dahsboard" /></div>
           <h3>FINAL YEAR PROJECT</h3>
           <h1>Web Application to Support the Design Sprint Process</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae diam porttitor, lobortis elit id, dapibus nibh. Fusce posuere mi sit amet nibh suscipit efficitur. Aenean a sapien in est ornare luctus suscipit non lectus. Curabitur ut nunc quam. Ut eget rutrum risus. Vestibulum vel ipsum at ante suscipit venenatis. Mauris aliquet sed quam vitae fermentum. Cras sapien metus, pharetra quis hendrerit in, consectetur vel odio. Donec iaculis magna nisi, ut pretium sem feugiat sed.</p>
+          <div className='subtitle'>
+            <p>Project that supports the planning stage of a Design Sprint and helps facilitators focus on the people, rather than the process.</p>
+            <p></p>
+          </div>
         </Grid>
         <Grid item xs={12} sm={6}>
-        <div><img src={Neja} width="200" alt="Neja's profile picture" /></div>
+        <div><img src={OpenDayDashboard} width="550" alt="Virtual open day dashboard" /></div>
           <h3>INTERACTIVE DESIGN</h3>
-          <h1>Virtual University Open Day Concept</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae diam porttitor, lobortis elit id, dapibus nibh. Fusce posuere mi sit amet nibh suscipit efficitur. Aenean a sapien in est ornare luctus suscipit non lectus. Curabitur ut nunc quam. Ut eget rutrum risus. Vestibulum vel ipsum at ante suscipit venenatis. Mauris aliquet sed quam vitae fermentum. Cras sapien metus, pharetra quis hendrerit in, consectetur vel odio. Donec iaculis magna nisi, ut pretium sem feugiat sed.</p>
+          <h1>Virtual University Open Day Concept
+            
+          </h1>
+          <div className='subtitle'>
+            Ideating with a Design Sprint and creating an interactive solution to bring the University Open Day experience to people remotely.
+        </div>
         </Grid>
         </Grid>
       </Container>

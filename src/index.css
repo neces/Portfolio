@@ -38,7 +38,7 @@ h2 {
   display:inline-flex;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 420px) {
   h2 {
     font-size: 20px;
     opacity: 0.7;
@@ -74,7 +74,7 @@ h2 {
   padding: 6rem;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 420px) {
   .greeting {
     padding: 2rem;
   }
@@ -104,4 +104,9 @@ h2 {
   top:97vh;
   transform:translateY(-100%);
   width: 100%;
+}
+
+.subtitle {
+  margin-top: 40px;
+  font-size: 18px;
 }
