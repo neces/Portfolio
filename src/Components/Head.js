@@ -35,9 +35,9 @@ const Head = ({ }) => {
       <Container maxWidth="sm">
       <h1>Hi, I'm Neja!</h1>
       <h2><Speak />⋅ [ney-a]</h2>
-      <div className='bio'>Computer Scientist fascinated by the intersection of design, engineering and business. Interested in technology but more excited about the people using it. Creative problem-solver, global citizen and advocate for Women in STEM.</div>
-
-      <p>Looking for a summer internship in Frontend Engineering, User Experience or Product Design before starting a masters degree in HCI.</p>
+      <div className='bio'>
+      <p>Computer Scientist fascinated by the intersection of design, engineering and business. Interested in technology but more excited about the people using it. Creative problem-solver, global citizen and advocate for Women in STEM.</p>
+      <p>Looking for a summer internship in Frontend Engineering, UX or Product Design before starting a masters degree in HCI.</p></div>
       </Container>
     </div>
     <div className='more-projects'>
