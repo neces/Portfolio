@@ -99,6 +99,7 @@ h2 {
 
 .about-me {
   padding-top: 40px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 420px) {
@@ -107,6 +108,10 @@ h2 {
     top: 110vh;
     font-size: 18px;
   }
+}
+
+.bio {
+  font-size: 18px;
 }
 
 .recommendation {
