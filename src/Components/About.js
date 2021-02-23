@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Neja from '../Assets/neja.png';
 import { Container } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';

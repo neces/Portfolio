@@ -47,9 +47,14 @@ h2 {
   }
 }
 
-.name {
+.logo {
   font-family: 'Brayden Script';
   font-size: 60px;
+}
+
+.logo:hover {
+  opacity: 0.7;
+  transition-duration: 0.5s;
 }
 
 .js-color-stop {

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
-import ScrollingColorBackground from 'react-scrolling-color-background'
-import Head from '../Components/Head'
-import Projects from '../Components/Projects'
-import About from '../Components/About'
-import Footer from '../Components/Footer'
+import React, { useState, useEffect } from 'react';
+import ScrollingColorBackground from 'react-scrolling-color-background';
+import Head from '../Components/Head';
+import Projects from '../Components/Projects';
+import About from '../Components/About';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { ReactComponent as Mail } from '../Assets/mail.svg';
 import { ReactComponent as Linkedin } from '../Assets/logo-linkedin.svg';
 import { ReactComponent as Cv } from '../Assets/cv.svg';

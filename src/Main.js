@@ -1,9 +1,9 @@
-import React from 'react'
-import { Switch, Route } from 'react-router-dom'
-import { BrowserRouter as Router } from 'react-router-dom'
-import Home from './Pages/Home'
-import Hons from './Pages/Hons'
-import UX from './Pages/UX'
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './Pages/Home';
+import Hons from './Pages/Hons';
+import UX from './Pages/UX';
 
 const Main = () => {
   

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { ReactComponent as Mail } from '../Assets/mail.svg';
 import { ReactComponent as Linkedin } from '../Assets/logo-linkedin.svg';
 import { ReactComponent as Cv } from '../Assets/cv.svg';
@@ -7,7 +7,6 @@ import { ReactComponent as Arrow } from '../Assets/arrow.svg';
 import Pdf from '../Assets/CV.pdf';
 import Grid from '@material-ui/core/Grid';
 import { Container } from '@material-ui/core';
-import { HashLink as Link } from 'react-router-hash-link';
 
 const Head = ({ }) => {
 
