@@ -110,6 +110,14 @@ h2 {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .about-me {
+    position: absolute;
+    top: 110vh;
+    font-size: 18px;
+  }
+}
+
 .bio {
   font-size: 18px;
 }
@@ -128,7 +136,20 @@ h2 {
 }
 
 .subtitle {
+  margin-top: 50px;
   font-size: 18px;
+}
+
+.subtitle-extra-space {
+  margin-top: 105px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 420px) {
+  .subtitle-extra-space {
+    margin-top: 50px;
+    font-size: 18px;
+  }
 }
 
 .projects {
